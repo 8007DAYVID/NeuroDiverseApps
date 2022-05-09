@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package computecommission;
+import java.util.Scanner;
+
+/**
+ *
+ * @author DavidSchmidt
+ */
+public class ComputeCommission {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // Variables
+        int value; // value of the vehicle
+        double commRate; // the sales-commission rate
+        
+        // Scanner
+        Scanner sc = new Scanner(System.in);
+        
+        // Get user data
+        System.out.print("Enter the value of the vehicle >> ");
+        value = sc.nextInt();
+        
+        System.out.print("Enter the commision rate (as a decimal) >> ");
+        commRate = sc.nextDouble();
+        
+    
+    } // end-public-main
+    
+} // end-public-class
